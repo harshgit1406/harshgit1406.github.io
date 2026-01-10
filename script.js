@@ -172,7 +172,7 @@ function initContactButton() {
     if (contactButton) {
         contactButton.addEventListener('click', (e) => {
             e.preventDefault();
-            const contactSection = document.getElementById('contact');
+            const contactSection = document.getElementById('skills');
             
             if (contactSection) {
                 contactSection.scrollIntoView({
