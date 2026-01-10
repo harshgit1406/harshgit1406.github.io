@@ -722,3 +722,32 @@ body.modal-open {
 img {
     opacity: 1 !important;
 }
+.link {
+  color: var(--text-secondary);
+  text-decoration: underline;
+}
+
+.link:hover {
+  opacity: 0.7;
+}
+/* Reusable horizontal image gallery */
+.image-gallery {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.image-gallery img {
+  height: 200px;          /* small size */
+  width: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  opacity: 0.9;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Subtle hover effect */
+.image-gallery img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
