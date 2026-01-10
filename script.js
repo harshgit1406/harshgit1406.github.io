@@ -10,8 +10,8 @@ function createSnowflakes() {
         snowflake.style.left = Math.random() * 100 + '%';
         snowflake.style.animationDuration = (Math.random() * 10 + 10) + 's';
         snowflake.style.animationDelay = Math.random() * 5 + 's';
-        snowflake.style.fontSize = (Math.random() * 8 + 8) + 'px';
-        snowflake.style.opacity = Math.random() * 0.3 + 0.1;
+        snowflake.style.fontSize = (Math.random() * 10 + 10) + 'px';
+        snowflake.style.opacity = Math.random() * 0.6 + 0.3;
         snow.appendChild(snowflake);
     }
 }

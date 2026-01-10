@@ -718,3 +718,7 @@ section {
 body.modal-open {
     overflow: hidden;
 }
+/* Fix for image visibility */
+img {
+    opacity: 1 !important;
+}
