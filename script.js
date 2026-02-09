@@ -167,7 +167,7 @@ function initActiveNavLink() {
 
 // Contact Button Scroll
 function initContactButton() {
-    const contactButton = document.querySelector('.btn-primary');
+    const contactButton = document.getElementById('learnMoreBtn');
     
     if (contactButton) {
         contactButton.addEventListener('click', (e) => {
@@ -183,6 +183,7 @@ function initContactButton() {
         });
     }
 }
+
 
 // Card Hover Effect Enhancement
 function initCardEffects() {

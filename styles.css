@@ -218,7 +218,13 @@ section {
 .btn-primary {
     margin-top: var(--spacing-sm);
 }
-
+.btn-group {
+    display: flex;
+    justify-content: center; 
+    gap: 16px; 
+    margin-top: var(--spacing-sm);
+    width: 100%; 
+}
 /* Icons */
 .icon {
     width: 40px;
